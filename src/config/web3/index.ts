@@ -1,3 +1,5 @@
+// Clase
+import { InjectedConnector } from "@web3-react/injected-connector";
 // @ts-ignore
 import Web3 from "web3/dist/web3.min";
 
@@ -5,8 +7,6 @@ import Web3 from "web3/dist/web3.min";
 // import { InjectedConnector } from "web3-react/dist/connectors";
 // const connector = new InjectedConnector({ supportedNetworks: [4] });
 
-// Clase
-import { InjectedConnector } from "@web3-react/injected-connector";
 const connector = new InjectedConnector({
 	supportedChainIds: [
 		4, // Rinkeby
